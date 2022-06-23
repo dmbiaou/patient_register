@@ -1,0 +1,94 @@
+#+STARTUP: overview indent logdrawer
+#+TITLE: DPI-ODKX
+#+AUTHOR: Doévi Biaou
+#+TAGS:
+
+                          [[https://docs.odk-x.org/][Documentation]]
+
+* Tâches et idées
+** Organisation générale et préréquis [20%]
+:LOGBOOK:
+CLOCK: [2022-01-08 sam. 12:29]--[2022-01-08 sam. 12:29] =>  0:00
+:END:
+- [X] Documentation PDF 
+- [ ] Repositoire Git
+  + [ ] Un compte github plutôt que gitlab
+  + 
+- [ ] Readme
+- [ ] Environnement
+  + [ ] Java
+  + [ ] 
+  + [ ] Et sur windows ?
+- [ ] CheckUp reproductibilité
+- 
+** Explorer des exemples [0%]
+- Patientes PVVIH suivies au Kenya [[https://docs.odk-x.org/hope-study-intro/][lien]]
+  + [X] Présentation 
+  + [ ] Configuration de l'environnement 
+  + [ ] Git
+  + [ ] Tour d'horizon
+** TODO Fiches [0%]
+*** TODO *Admission* [1/7]
+SCHEDULED: <2022-06-25 sam.>
+:LOGBOOK:
+CLOCK: [2022-06-23 jeu. 22:02]
+:END:
+  - [ ] Identité (identifiant à générer, comment ?)
+  - [X] Identité et socio-économiques
+  - [ ] Anamnèse
+  - [ ] Examen clinique à l'admission
+  - [ ] ATCD (insérer une base de données CIM 10 simplifiée)
+  - [ ] Résumé syndromique (à générer ?)
+  - [ ] Axes de diagnostic
+  - 
+*** TODO *Résumé de séjour/Compte rendu d'hospitalisation* [0/3]
+  + [ ] Récuperer des informations de la fiche d'examen à l'admission
+  + [ ] Evolution : texte libre
+  + [ ] Issue finale et rendez-vous (suite à envisager)
+  + 
+*** TODO Evaluations ponctuelles [1/4]
+  + [X] Surveillance des fuites aériennes après drainage thoracique  
+  + [ ] Observance du traitement
+  + [ ] Evaluation BPCO selon GOLD
+  + [ ] Evaluation Asthme selon GINA et BTS
+- 
+** Problème de l'identifiant unique
+** Problème des bases de données
+*** Format adapté
+*** Protection des patients et confidentialité
+*** Synchronisation partielle
+** Problème de la synchronisation
+** L'interface d'utilisateur
+:LOGBOOK:
+- Note taken on [2022-06-23 jeu. 21:56] \\
+  Une source d'inspiration : rapport automatisé depuis googlesheet avec R [[* https://www.r-bloggers.com/2022/06/automated-survey-reporting-with-googlesheets4-pins-and-r-markdown/][ici.]]
+:END:
+- [ ] Choix du programme : R, Python ?
+- [ ] Contenu prévu validé :
+  + 
+- 
+** Contenu de l'UI - fonctionnalités
+- Ajout de nouveau patient : enregistrement
+- Modification données d'un ancien patient mais avec un enregistrement
+  de l'ancienne version pour des questions de traçabilité et de manipulation
+- Genèse d'un rapport d'hospitalisation. 
+
+
+* Notes
+** Femmes PVVIH suivies au Kenya HOPE Study
+:LOGBOOK:
+CLOCK: [2022-01-09 dim. 15:46]--[2022-01-09 dim. 15:53] =>  0:07
+:END:
+*** Présentation
+La [[https://clinicaltrials.gov/ct2/show/NCT01784783][page]] de l'étude.
+Fonctionnalités utilisées et à copier :
+- *synchronisation et reutilisation des données*
+- *personnalisation de l'affichage web* : recherche de la bonne patiente
+  simplifiée
+- *de multiples formulaires renseignant leurs données dans la même base*
+- *navigation complexe* dans le formulaire selon de nombreux critères
+  d'eligibilité et de validation des réponses.
+  
+
+*** Installation
+Sur la branche master de [[https://github.com/odk-x/app-designer/tree/master][ce repos]]
