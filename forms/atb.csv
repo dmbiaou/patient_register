@@ -1,0 +1,181 @@
+list_name,name,label,ATC_code
+atb,Aminoglycosides,Amikacin,J01GB06
+atb,Penicillins ,Amoxicillin,J01CA04
+atb,Beta lactam - beta lactamase inhibitor,Amoxicillin/clavulanic Acid,J01CR02
+atb,Penicillins ,Ampicillin,J01CA01 
+atb,Beta lactam - beta lactamase inhibitor,Ampicillin/sulbactam,J01CR01
+atb,Aminoglycosides,Arbekacin,J01GB12
+atb,Macrolides,Azithromycin,J01FA10
+atb,Penicillins ,Azlocillin,J01CA09
+atb,Monobactams,Aztreonam,J01DF01
+atb,Penicillins ,Bacampicillin,J01CA06
+atb,Penicillins ,Benzathine benzylpenicillin,J01CE08
+atb,Penicillins ,Benzylpenicillin,J01CE01
+atb,Carbapenems,Biapenem,J01DH05
+atb,Carboxypenicillins,Carbenicillin,J01CA03
+atb,First-generation cephalosporins,Cefacetrile,J01DB10
+atb,Second-generation cephalosporins,Cefaclor,J01DC04
+atb,First-generation cephalosporins,Cefadroxil,J01DB05
+atb,First-generation cephalosporins,Cefalexin,J01DB01
+atb,First-generation cephalosporins,Cefalotin,J01DB03
+atb,Second-generation cephalosporins,Cefamandole,J01DC03
+atb,First-generation cephalosporins,Cefapirin,J01DB08
+atb,First-generation cephalosporins,Cefatrizine,J01DB07
+atb,First-generation cephalosporins,Cefazedone,J01DB06
+atb,First-generation cephalosporins,Cefazolin,J01DB04
+atb,Second-generation cephalosporins,Cefbuperazone,J01DC13
+atb,Third-generation cephalosporins,Cefcapene pivoxil,J01DD17
+atb,Third-generation cephalosporins,Cefdinir,J01DD15
+atb,Third-generation cephalosporins,Cefditoren pivoxil,J01DD16
+atb,Fourth-generation cephalosporins,Cefepime,J01DE01
+atb,Third-generation cephalosporins,Cefetamet pivoxil,J01DD10
+atb,Third-generation cephalosporins,Cefixime,J01DD08
+atb,Third-generation cephalosporins,Cefmenoxime,J01DD05
+atb,Second-generation cephalosporins,Cefmetazole,J01DC09
+atb,Second-generation cephalosporins,Cefminox,J01DC12
+atb,Third-generation cephalosporins,Cefodizime,J01DD09
+atb,Second-generation cephalosporins,Cefonicid,J01DC06
+atb,Third-generation cephalosporins,Cefoperazone,J01DD12
+atb,Second-generation cephalosporins,Ceforanide,J01DC11
+atb,Fourth-generation cephalosporins,Cefoselis,to be assigned
+atb,Third-generation cephalosporins,Cefotaxime,J01DD01
+atb,Second-generation cephalosporins,Cefotetan,J01DC05
+atb,Second-generation cephalosporins,Cefotiam,J01DC07
+atb,Second-generation cephalosporins,Cefotiam hexetil,J01DC07
+atb,Second-generation cephalosporins,Cefoxitin,J01DC01
+atb,Fourth-generation cephalosporins,Cefozopran,J01DE03
+atb,Third-generation cephalosporins,Cefpiramide,J01DD11
+atb,Fourth-generation cephalosporins,Cefpirome,J01DE02
+atb,Third-generation cephalosporins,Cefpodoxime proxetil,J01DD13
+atb,Second-generation cephalosporins,Cefprozil,J01DC10
+atb,First-generation cephalosporins,Cefradine,J01DB09
+atb,First-generation cephalosporins,Cefroxadine,J01DB11
+atb,Fifth-generation cephalosporins,Ceftaroline fosamil,J01DI02 
+atb,Third-generation cephalosporins,Ceftazidime,J01DD02
+atb,Third-generation cephalosporins,Ceftazidime-avibactam,J01DD52
+atb,Third-generation cephalosporins,Cefteram pivoxil,J01DD18
+atb,First-generation cephalosporins,Ceftezole,J01DB12
+atb,Third-generation cephalosporins,Ceftibuten,J01DD14
+atb,Third-generation cephalosporins,Ceftizoxime,J01DD07
+atb,Fifth-generation cephalosporins,Ceftobiprole medocaril,J01DI01
+atb,Fifth-generation cephalosporins,Ceftolozane-tazobactam,J01DI54
+atb,Third-generation cephalosporins,Ceftriaxone,J01DD04
+atb,Second-generation cephalosporins,Cefuroxime,J01DC02
+atb,Amphenicols,Chloramphenicol,J01BA01
+atb,Tetracyclines,Chlortetracycline,J01AA03
+atb,Fluoroquinolones,Ciprofloxacin,J01MA02
+atb,Macrolides,Clarithromycin,J01FA09
+atb,Lincosamides,Clindamycin,J01FF01 
+atb,Phenol derivatives,Clofoctol,J01XX03
+atb,Penicillins ,Clometocillin,J01CE07
+atb,Penicillins ,Cloxacillin,J01CF02
+atb,Polymyxins,Colistin,J01XB01
+atb,Glycopeptides,Dalbavancin,J01XA04
+atb,Streptogramins,Dalfopristin-quinupristin,J01FG02
+atb,Lipopeptides,Daptomycin,J01XX09
+atb,Fluoroquinolones,Delafloxacin,J01MA23
+atb,Aminoglycosides,Dibekacin,J01GB09
+atb,Penicillins ,Dicloxacillin,J01CF01
+atb,Macrolides,Dirithromycin,J01FA13
+atb,Carbapenems,Doripenem,J01DH04
+atb,Tetracyclines,Doxycycline,J01AA02
+atb,Fluoroquinolones,Enoxacin,J01MA04
+atb,Carbapenems,Ertapenem,J01DH03
+atb,Tetracyclines,Eravacycline,J01AA13
+atb,Macrolides,Erythromycin,J01FA01
+atb,Penems,Faropenem,J01DI03
+atb,Fluoroquinolones,Fleroxacin,J01MA08
+atb,Second-generation cephalosporins,Flomoxef,J01DC14
+atb,Penicillins ,Flucloxacillin,J01CF05
+atb,Fluoroquinolones,Flumequine,J01MB07
+atb,Phosphonics,Fosfomycin (IV),J01XX01
+atb,Phosphonics,Fosfomycin (oral),J01XX01
+atb,Steroid antibacterials,Fusidic Acid,J01XC01
+atb,Fluoroquinolones,Garenoxacin,J01MA19
+atb,Fluoroquinolones,Gatifloxacin,J01MA16
+atb,Fluoroquinolones,Gemifloxacin,J01MA15
+atb,Aminoglycosides,Gentamicin,J01GB03
+atb,Carbapenems,Imipenem/cilastatin,J01DH51
+atb,Aminoglycosides,Isepamicin,J01GB11
+atb,Macrolides,Josamycin,J01FA07
+atb,Aminoglycosides,Kanamycin,J01GB04
+atb,Third-generation cephalosporins,Latamoxef,J01DD06
+atb,Fluoroquinolones,Levofloxacin,J01MA12
+atb,Macrolides,Lincomycin,J01FF02
+atb,Oxazolidinones,Linezolid,J01XX08
+atb,Fluoroquinolones,Lomefloxacin,J01MA07
+atb,Tetracyclines,Lymecycline,J01AA04
+atb,Penicillins ,Mecillinam,J01CA11
+atb,Carbapenems,Meropenem,J01DH02
+atb,Carbapenems,Meropenem-vaborbactam,J01DH52
+atb,Tetracyclines,Metacycline,J01AA05
+atb,Imidazoles,Metronidazole (IV),J01XD01
+atb,Imidazoles,Metronidazole (oral),P01AB01
+atb,Penicillins ,Mezlocillin,J01CA10
+atb,Aminoglycosides,Micronomicin,to be assigned
+atb,Macrolides,Midecamycin,J01FA03
+atb,Tetracyclines,Minocycline (IV),J01AA08
+atb,Tetracyclines,Minocycline (oral),J01AA08
+atb,Fluoroquinolones,Moxifloxacin,J01MA14
+atb,Penicillins ,Nafcillin,J01CF06
+atb,Aminoglycosides,Neomycin,J01GB05
+atb,Aminoglycosides,Netilmicin,J01GB07
+atb,Nitrofurantoin,Nitrofurantoin,J01XE01
+atb,Fluoroquinolones,Norfloxacin,J01MA06
+atb,Fluoroquinolones,Ofloxacin,J01MA01
+atb,Macrolides,Oleandomycin,J01FA05
+atb,Tetracyclines,Omadacycline,to be assigned
+atb,Glycopeptides,Oritavancin,J01XA05
+atb,Penicillins ,Oxacillin,J01CF04
+atb,Tetracyclines,Oxytetracycline,J01AA06
+atb,Carbapenems,Panipenem,to be assigned
+atb,Fluoroquinolones,Pazufloxacin,J01MA18
+atb,Fluoroquinolones,Pefloxacin,J01MA03
+atb,Penicillins ,Penamecillin,J01CE06
+atb,Penicillins ,Pheneticillin,J01CE05
+atb,Penicillins ,Phenoxymethylpenicillin,J01CE02
+atb,Penicillins ,Piperacillin,J01CA12
+atb,Beta lactam - beta lactamase inhibitor (anti-pseudomonal),Piperacillin/tazobactam,J01CR05
+atb,Penicillins ,Pivampicillin,J01CA02
+atb,Penicillins ,Pivmecillinam,J01CA08
+atb,Aminoglycosides,Plazomicin,to be assigned
+atb,Polymyxins,Polymyxin B,J01XB02
+atb,Streptogramins,Pristinamycin,J01FG01
+atb,Penicillins ,Procaine benzylpenicillin,J01CE09
+atb,Fluoroquinolones,Prulifloxacin,J01MA17
+atb,Aminoglycosides,Ribostamycin,J01GB10
+atb,Rifamycins,Rifabutin,J04AB04
+atb,Rifamycins,Rifampicin,J04AB02
+atb,Rifamycins,Rifamycin,J04AB03
+atb,Rifamycins,Rifaximin,A07AA11
+atb,Macrolides,Roxithromycin,J01FA06
+atb,Fluoroquinolones,Rufloxacin,J01MA10
+atb,Aminoglycosides,Sisomicin,J01GB08
+atb,Fluoroquinolones,Sitafloxacin,J01MA21
+atb,Fluoroquinolones,Sparfloxacin,J01MA09
+atb,Aminocyclitols,Spectinomycin,J01XX04
+atb,Macrolides,Spiramycin,J01FA02
+atb,Combination of antibiotics,Spiramycin/metronidazole,J01RA04
+atb,Aminoglycosides,Streptomycin,J01GA01
+atb,Penicillins ,Sulbenicillin,J01CA16
+atb,Trimethoprim - sulfonamide combinations,Sulfadiazine/trimethoprim,J01EE02
+atb,Trimethoprim - sulfonamide combinations,Sulfamethizole/trimethoprim,J01EB02
+atb,Trimethoprim - sulfonamide combinations,Sulfamethoxazole/trimethoprim,J01EE01
+atb,Trimethoprim - sulfonamide combinations,Sulfametrole/trimethoprim,J01EE03
+atb,Trimethoprim - sulfonamide combinations,Sulfamoxole/trimethoprim,J01EE04
+atb,Beta lactam - beta lactamase inhibitor,Sultamicillin,J01CR04
+atb,Carbapenems,Tebipenem,J01DH06
+atb,Oxazolidinones,Tedizolid,J01XX11
+atb,Glycopeptides,Teicoplanin,J01XA02
+atb,Glycopeptides,Telavancin,J01XA03
+atb,Macrolides,Telithromycin,J01FA15
+atb,Carboxypenicillins,Temocillin,J01CA17
+atb,Tetracyclines,Tetracycline,J01AA07
+atb,Amphenicols,Thiamphenicol,J01BA02
+atb,Carboxypenicillins,Ticarcillin,J01CA13
+atb,Glycylcyclines,Tigecycline,J01AA12
+atb,Aminoglycosides,Tobramycin,J01GB01
+atb,Fluoroquinolones,Tosufloxacin,J01MA22
+atb,Trimethoprim,Trimethoprim,J01EA01
+atb,Glycopeptides,Vancomycin (IV),J01XA01
+atb,Glycopeptides,Vancomycin (oral),A07AA09

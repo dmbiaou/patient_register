@@ -31,3 +31,81 @@ CLOSED: [2022-06-24 ven. 01:28]
 :ARCHIVE_CATEGORY: dpi_odkx
 :ARCHIVE_TODO: DONE
 :END:
+
+* Tâches et idées
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 dim. 10:47
+:ARCHIVE_FILE: ~/Nextcloud/studios/proj/patient_register/dpi_odkx.org
+:ARCHIVE_CATEGORY: dpi_odkx
+:END:
+** Organisation générale et préréquis [40%]
+:LOGBOOK:
+CLOCK: [2022-01-08 sam. 12:29]--[2022-01-08 sam. 12:29] =>  0:00
+:END:
+*** DONE Documentation PDF 
+*** DONE Repositoire Git
+**** DONE Un compte github plutôt que gitlab 
+*** TODO Environnement [/]
+- [ ] Java
+- [ ] Compatibilité windows
+*** TODO CheckUp reproductibilité
+*** 
+
+** Explorer des exemples [0%]
+- Patientes PVVIH suivies au Kenya [[https://docs.odk-x.org/hope-study-intro/][lien]]
+  + [X] Présentation 
+  + [ ] Configuration de l'environnement 
+  + [ ] Git
+  + [ ] Tour d'horizon
+** Fiches [0%]
+*** TODO *Admission* [0/6]
+SCHEDULED: <2022-06-25 sam.>
+:LOGBOOK:
+CLOCK: [2022-06-23 jeu. 22:02]--[2022-06-24 ven. 00:30] =>  2:28
+:END:
+**** TODO Identité (identifiant à générer, comment ?)
+**** TODO Anamnèse
+**** TODO ATCD (insérer une base de données CIM 10 simplifiée)
+**** TODO Mode de vie avec les scores de dépendance au tabac. 
+**** TODO Examen clinique à l'admission
+**** TODO Résumé syndromique (à générer ?)
+*** TODO *Résumé de séjour/Compte rendu d'hospitalisation* [0/3]
+**** TODO Récuperer des informations de la fiche d'examen à l'admission
+**** TODO Evolution : texte libre
+**** TODO Issue finale et rendez-vous (suite à envisager)
+**** 
+*** TODO Evaluations ponctuelles [1/4]
+  + [X] Surveillance des fuites aériennes après drainage thoracique  
+  + [ ] Observance du traitement
+  + [ ] Evaluation BPCO selon GOLD
+  + [ ] Evaluation Asthme selon GINA et BTS
+- 
+** Issues - Problèmes - Questions
+*** Identifiant unique
+*** Problème des bases de données
+**** Format adapté
+**** Protection des patients et confidentialité
+**** Synchronisation partielle
+*** Problème de la synchronisation
+** TODO Rédaction de la documentation 
+** L'interface d'utilisateur
+:LOGBOOK:
+- Note taken on [2022-06-23 jeu. 21:56] \\
+  Une source d'inspiration : rapport automatisé depuis googlesheet avec R [[* https://www.r-bloggers.com/2022/06/automated-survey-reporting-with-googlesheets4-pins-and-r-markdown/][ici.]]
+:END:
+- [ ] Choix du programme : R, Python ?
+- [ ] Contenu prévu validé :
+  + 
+- 
+** Contenu de l'UI - fonctionnalités
+- Ajout de nouveau patient : enregistrement
+- Modification données d'un ancien patient mais avec un enregistrement
+  de l'ancienne version pour des questions de traçabilité et de manipulation
+- Genèse d'un rapport d'hospitalisation. 
+
+
+** DONE Récuperer le formulaire d'observation médicale en pneumologie
+CLOSED: [2022-06-26 dim. 10:41] SCHEDULED: <2022-06-24 ven. 15:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-06-26 dim. 10:41]
+:END:
