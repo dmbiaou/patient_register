@@ -5,7 +5,7 @@
 #+SEQ_TODO: TODO(t) NEXT(n) RUNNING(r) ONEDAY(o@) | DONE(d!) CANCELLED(c!/@)
 #+ARCHIVE: %s_done::
 
-                          [[https://docs.odk-x.org/][Documentation]]
+                          [[https://docs.odk-x.org/][Documentation odkx]]
 
 * Tâches et idées
 ** Organisation générale et préréquis [40%]
@@ -19,7 +19,6 @@ CLOCK: [2022-01-08 sam. 12:29]--[2022-01-08 sam. 12:29] =>  0:00
 - [ ] Java
 - [ ] Compatibilité windows
 *** TODO CheckUp reproductibilité
-*** 
 
 ** Explorer des exemples [0%]
 - Patientes PVVIH suivies au Kenya [[https://docs.odk-x.org/hope-study-intro/][lien]]
@@ -28,13 +27,18 @@ CLOCK: [2022-01-08 sam. 12:29]--[2022-01-08 sam. 12:29] =>  0:00
   + [ ] Git
   + [ ] Tour d'horizon
 ** Fiches [0%]
-*** TODO *Admission* [0/6]
-SCHEDULED: <2022-07-24 dim.>
+*** RUNNING *Admission* [0/6]
 :LOGBOOK:
 CLOCK: [2022-06-23 jeu. 22:02]--[2022-06-24 ven. 00:30] =>  2:28
 :END:
 **** TODO Identité (identifiant à générer, comment ?)
-**** TODO Anamnèse [1/3]
+:LOGBOOK:
+- Note taken on [2022-08-05 ven. 15:15] \\
+  Identifiant pour questionnaire ici
+  Des approches de solution
+  https://support.kobotoolbox.org/unique_serial_numbers.html?highlight=form%20id
+:END:
+**** TODO Anamnèse [1/2]
 :PROPERTIES:
 :Effort:   6:00
 :END:
@@ -42,10 +46,19 @@ CLOCK: [2022-06-23 jeu. 22:02]--[2022-06-24 ven. 00:30] =>  2:28
 CLOCK: [2022-08-01 lun. 19:16]--[2022-08-01 lun. 22:25] =>  3:09
 CLOCK: [2022-06-26 dim. 11:00]--[2022-06-26 dim. 12:12] =>  1:12
 :END:
-***** TODO Générer les images pour les expectorations
+***** DONE Générer les images pour les expectorations
+CLOSED: [2022-08-14 dim. 11:41] SCHEDULED: <2022-08-13 sam. 16:00>
+:PROPERTIES:
+:Effort:   00:20
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-08-14 dim. 11:41]
+CLOCK: [2022-08-14 dim. 11:17]--[2022-08-14 dim. 11:41] =>  0:24
+:END:
 ***** TODO Trouver une source evidence based pour la quantification de l'hémoptysie
 et des images si possible
 **** TODO ATCD (insérer une base de données CIM 10 simplifiée) [/]
+SCHEDULED: <2022-08-21 dim.>
 ***** TODO Télécharger la base CIM 10 simplifiée
 ***** TODO Mettre en forme la base sous xml ou excel
 ***** TODO Insérer la fameuse base
