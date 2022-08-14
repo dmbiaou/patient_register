@@ -1,0 +1,125 @@
+#+STARTUP: overview indent logdrawer
+#+TITLE: DPI-ODKX : Organisation et progression des tâches
+#+AUTHOR: Doévi Biaou
+#+TAGS:
+#+SEQ_TODO: TODO(t) NEXT(n) RUNNING(r) ONEDAY(o@) | DONE(d!) CANCELLED(c!/@)
+#+ARCHIVE: %s_done::
+
+                          [[https://docs.odk-x.org/][Documentation odkx]]
+
+* Tâches et idées
+** Organisation générale et préréquis [40%]
+:LOGBOOK:
+CLOCK: [2022-01-08 sam. 12:29]--[2022-01-08 sam. 12:29] =>  0:00
+:END:
+*** DONE Documentation PDF 
+*** DONE Repositoire Git
+**** DONE Un compte github plutôt que gitlab 
+*** TODO Environnement [/]
+- [ ] Java
+- [ ] Compatibilité windows
+*** TODO CheckUp reproductibilité
+
+** Explorer des exemples [0%]
+- Patientes PVVIH suivies au Kenya [[https://docs.odk-x.org/hope-study-intro/][lien]]
+  + [X] Présentation 
+  + [ ] Configuration de l'environnement 
+  + [ ] Git
+  + [ ] Tour d'horizon
+** Fiches [0%]
+*** RUNNING *Admission* [0/6]
+:LOGBOOK:
+CLOCK: [2022-06-23 jeu. 22:02]--[2022-06-24 ven. 00:30] =>  2:28
+:END:
+**** TODO Identité (identifiant à générer, comment ?)
+:LOGBOOK:
+- Note taken on [2022-08-05 ven. 15:15] \\
+  Identifiant pour questionnaire ici
+  Des approches de solution
+  https://support.kobotoolbox.org/unique_serial_numbers.html?highlight=form%20id
+:END:
+**** TODO Anamnèse [1/2]
+:PROPERTIES:
+:Effort:   6:00
+:END:
+:LOGBOOK:
+CLOCK: [2022-08-01 lun. 19:16]--[2022-08-01 lun. 22:25] =>  3:09
+CLOCK: [2022-06-26 dim. 11:00]--[2022-06-26 dim. 12:12] =>  1:12
+:END:
+***** DONE Générer les images pour les expectorations
+CLOSED: [2022-08-14 dim. 11:41] SCHEDULED: <2022-08-13 sam. 16:00>
+:PROPERTIES:
+:Effort:   00:20
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-08-14 dim. 11:41]
+CLOCK: [2022-08-14 dim. 11:17]--[2022-08-14 dim. 11:41] =>  0:24
+:END:
+***** TODO Trouver une source evidence based pour la quantification de l'hémoptysie
+et des images si possible
+**** TODO ATCD (insérer une base de données CIM 10 simplifiée) [/]
+SCHEDULED: <2022-08-21 dim.>
+***** TODO Télécharger la base CIM 10 simplifiée
+***** TODO Mettre en forme la base sous xml ou excel
+***** TODO Insérer la fameuse base
+**** TODO Mode de vie avec les scores de dépendance au tabac. 
+**** TODO Examen clinique à l'admission
+**** TODO Résumé syndromique (à générer ?)
+*** TODO *Résumé de séjour/Compte rendu d'hospitalisation* [0/3]
+**** TODO Récuperer des informations de la fiche d'examen à l'admission
+**** TODO Evolution : texte libre
+**** TODO Issue finale et rendez-vous (suite à envisager)
+**** 
+*** TODO Evaluations ponctuelles [1/4]
+  + [X] Surveillance des fuites aériennes après drainage thoracique  
+  + [ ] Observance du traitement
+  + [ ] Evaluation BPCO selon GOLD
+  + [ ] Evaluation Asthme selon GINA et BTS
+- 
+** Issues - Problèmes - Questions
+*** Identifiant unique
+*** Problème des bases de données
+**** Format adapté
+**** Protection des patients et confidentialité
+**** Synchronisation partielle
+*** Problème de la synchronisation
+** TODO Rédaction de la documentation 
+** L'interface d'utilisateur
+:LOGBOOK:
+- Note taken on [2022-06-23 jeu. 21:56] \\
+  Une source d'inspiration : rapport automatisé depuis googlesheet avec R [[* https://www.r-bloggers.com/2022/06/automated-survey-reporting-with-googlesheets4-pins-and-r-markdown/][ici.]]
+:END:
+- [ ] Choix du programme : R, Python ?
+- [ ] Contenu prévu validé :
+  + 
+- 
+** Contenu de l'UI - fonctionnalités
+- Ajout de nouveau patient : enregistrement
+- Modification données d'un ancien patient mais avec un enregistrement
+  de l'ancienne version pour des questions de traçabilité et de manipulation
+- Genèse d'un rapport d'hospitalisation. 
+
+
+** DONE Récuperer le formulaire d'observation médicale en pneumologie
+CLOSED: [2022-06-26 dim. 10:41] SCHEDULED: <2022-06-24 ven. 15:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-06-26 dim. 10:41]
+:END:
+* Notes
+** Femmes PVVIH suivies au Kenya HOPE Study
+:LOGBOOK:
+CLOCK: [2022-01-09 dim. 15:46]--[2022-01-09 dim. 15:53] =>  0:07
+:END:
+*** Présentation
+La [[https://clinicaltrials.gov/ct2/show/NCT01784783][page]] de l'étude.
+Fonctionnalités utilisées et à copier :
+- *synchronisation et reutilisation des données*
+- *personnalisation de l'affichage web* : recherche de la bonne patiente
+  simplifiée
+- *de multiples formulaires renseignant leurs données dans la même base*
+- *navigation complexe* dans le formulaire selon de nombreux critères
+  d'eligibilité et de validation des réponses.
+  
+
+*** Installation
+Sur la branche master de [[https://github.com/odk-x/app-designer/tree/master][ce repos]]
